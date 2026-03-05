@@ -1,0 +1,39 @@
+{
+  "name": "eveera-tiara-esm",
+  "version": "1.0.0",
+  "description": "Professional E-commerce Perfume Store - A full-stack web application built with Node.js, Express, EJS, and Supabase",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "NODE_ENV=development node --watch app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "echo \"Linting not configured - add ESLint for production\""
+  },
+  "keywords": [
+    "ecommerce",
+    "supabase",
+    "express",
+    "nodejs",
+    "perfume",
+    "capstone-project",
+    "full-stack"
+  ],
+  "author": "Student Developer",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "express-ejs-layouts": "^2.5.1",
+    "@supabase/supabase-js": "^2.38.4",
+    "dotenv": "^16.3.1",
+    "express-session": "^1.17.3",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {}
+}
+
